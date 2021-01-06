@@ -1,0 +1,41 @@
+*{
+    border:solid;
+}
+
+
+h1,p{
+    display: flex;
+    align-content:center;
+   flex-grow:4;
+}
+
+.bigger pic{
+    display:flex;
+    background-color:#7c1c04;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    justify-content: space-evenly;
+}
+
+.picture{
+    display:flex;
+    border-radius:20px;
+    box-shadow:5px 5px 3px 1px #999;
+    background-color: #7490FF;
+    align-content: space-between;
+    margin:20px;
+    padding:20px;
+    justify-content: space-around;
+    font-family:fantasy;
+}
+.picture:hover{
+    transform:scale(1);
+}
+
+a:link{
+    color:#076ff8;
+
+}
+a:visited{
+color:#071f7c;
+}
